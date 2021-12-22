@@ -11,8 +11,9 @@
     ],
     "weisway": [
       "127.0.0.1"
-    ]
+    ],
+    "0cdf6c40-cbcd-45be-a6a5-9aa89aab0fa3": []
   },
-  "auto_authorize": false,
+  "auto_auth": true,
   "use_uuid": true
 }

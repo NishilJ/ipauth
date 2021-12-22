@@ -17,13 +17,13 @@ public record Authorizer(ConfigManager configManager) {
                 ips.add(ip);
                 return new Feedback(true, "");
             }
-            return new Feedback(ips.contains(ip), "Sorry, you cannot play from a different IP address.");
+            return new Feedback(ips.contains(ip), "You thought you could impersonate " + player.getEntityName() + ". lol");
         } else if (config.autoAuth) {
             config.authorized.put(id, new HashSet<>(Collections.singleton(ip)));
             configManager.saveConfig();
             return new Feedback(true, "");
         }
-        return new Feedback(false, "Sorry, you are unauthorized to play.");
+        return new Feedback(false, "Sorry, you ain't griefing our server today!");
     }
 
     public Feedback add(List<String> ids, String ips) {

@@ -1,11 +1,10 @@
-# ipauth
- A Minecraft Fabric mod that enables per user IP authorization.
-
 ## Description
 
 This mod adds per user IP based authorization.
 
-This mod is very useful for offline mode Minecraft servers because it ensures that a user with a username can only join from a specified IP. This avoids impersonating other users and stealing their dear resources. 
+This mod is very useful for offline mode Minecraft servers because it ensures that a user with a username can only join from a specified IP. This avoids impersonating other users and stealing their dear resources.
+
+Forked from weisrc.
 
 ## Commands
 
